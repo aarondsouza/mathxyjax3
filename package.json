@@ -2,7 +2,7 @@
   "name": "mathxyjax3",
   "type": "module",
   "scripts": {
-    "build": "tsdown",
+    "build": "tsdown --platform node",
     "clean": "rm -rf dist",
     "pretest": "npm run build",
     "test": "node --test test/**/*.test.js",
